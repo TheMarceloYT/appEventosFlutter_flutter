@@ -1,16 +1,22 @@
 # appeventosflutter_flutter
 
-A new Flutter project.
+App creada en flutter con dart usando como Base de datos FireBase y login de usuario Google
 
-## Getting Started
+=============================================================
 
-This project is a starting point for a Flutter application.
+(App en constante mejora Front-end y Back-end).
 
-A few resources to get you started if this is your first Flutter project:
+App que simula una App creada para que los usuarios puedan subir
+sus eventos y compartirlo con la gente.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Como usuario anonimo puedes ver todos los eventos y el chat global.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Como usuario logeado puedes crear tu evento (imagen, titulo, descripción, etc...),
+tambien podrás comentar en los eventos de las personas como en el chat global y 
+mucho más.
+
+Tambien podrás descontinuar un evento tuyo si ya no lo quieres activo.
+
+Cada usuario tiene sus opciones en la app.
+
+=============================================================
