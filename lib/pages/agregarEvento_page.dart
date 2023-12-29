@@ -99,6 +99,7 @@ class _AgregarEventoPageState extends State<AgregarEventoPage> {
                           //validar errores
                           if(titulo!.isEmpty) {return 'Ingrese el titulo';}
                           if(titulo.length < 4) {return 'El titulo debe ser mayor a 4 caracteres';}
+                          if(titulo.length > 25) {return 'El titulo debe ser menor a 25 caracteres';}
                           //todo ok
                           return null;
                         },
@@ -134,6 +135,7 @@ class _AgregarEventoPageState extends State<AgregarEventoPage> {
                           //validar errores
                           if(descripcion!.isEmpty) {return 'Ingrese la descripcion';}
                           if(descripcion.length < 10) {return 'La descripcion debe ser mayor a 10 caracteres';}
+                          if(descripcion.length > 100) {return 'La descripcion debe ser menor a 100 caracteres';}
                           //todo ok
                           return null;
                         },
@@ -289,7 +291,7 @@ class _AgregarEventoPageState extends State<AgregarEventoPage> {
                           }
                           setState(() {
                             //hay errores en el form?
-                            if(formKey.currentState!.validate() || msgImgError == '') {
+                            if(formKey.currentState!.validate() && msgImgError == '') {
                               //todo OK, asigno variables para subir
                               processSubida = true;
                               String titulo = ctrlTitulo.text.trim();

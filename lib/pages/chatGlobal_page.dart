@@ -188,6 +188,7 @@ class _ChatGlobalPageState extends State<ChatGlobalPage> {
                               //validar errores
                               if(comentario!.isEmpty) {return 'Ingrese el comentario';}
                               if(comentario.length < 4) {return 'El comentario debe ser mayor a 4 caracteres';}
+                              if(comentario.length > 50) {return 'El comentario debe ser menor a 50 caracteres';}
                               //todo ok
                               return null;
                             },

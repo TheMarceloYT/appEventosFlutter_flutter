@@ -97,7 +97,7 @@ class _EventoDescripcionPageState extends State<EventoDescripcionPage> {
                             return Center(
                               child: Container(
                                 width: 355,
-                                height: 300,
+                                height: 340,
                                 decoration: BoxDecoration(
                                   color: Colores.celeste(),
                                   border: Border.all(color: Colores.azul(), width: 1.5),
@@ -130,7 +130,7 @@ class _EventoDescripcionPageState extends State<EventoDescripcionPage> {
                                       alignment: Alignment.center,
                                       child: Text('"${evento['titulo']}"', style: TextStyle(
                                         color: Colors.white,
-                                        fontSize: 26,
+                                        fontSize: 24,
                                         fontWeight: FontWeight.bold,
                                       )),
                                     ),
@@ -139,7 +139,7 @@ class _EventoDescripcionPageState extends State<EventoDescripcionPage> {
                                       margin: EdgeInsets.symmetric(horizontal: 10),
                                       child: Text('${evento['descripcion']}', style: TextStyle(
                                         color: Colors.white,
-                                        fontSize: 16,
+                                        fontSize: 14,
                                       )),
                                     ),
                                   ],
@@ -293,6 +293,7 @@ class _EventoDescripcionPageState extends State<EventoDescripcionPage> {
                                   //validar errores
                                   if(comentario!.isEmpty) {return 'Ingrese el comentario';}
                                   if(comentario.length < 4) {return 'El comentario debe ser mayor a 4 caracteres';}
+                                  if(comentario.length > 50) {return 'El comentario debe ser menor a 50 caracteres';}
                                   //todo ok
                                   return null;
                                 },

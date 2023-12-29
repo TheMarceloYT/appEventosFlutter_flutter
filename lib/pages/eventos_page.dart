@@ -218,7 +218,7 @@ class EventosPage extends StatelessWidget {
                                           alignment: Alignment.center,
                                           child: Text('"${evento['titulo']}"', style: TextStyle(
                                             color: Colors.white,
-                                            fontSize: 26,
+                                            fontSize: 24,
                                             fontWeight: FontWeight.bold,
                                           )),
                                         ),
