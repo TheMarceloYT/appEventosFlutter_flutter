@@ -115,7 +115,7 @@ class EventosPage extends StatelessWidget {
                                   foregroundColor: Colors.white,
                                   icon: MdiIcons.comment,
                                   label: 'Comentar evento',
-                                  onPressed: (context) {
+                                  onPressed: (btnContext) {
                                     bool logeado = FireBaseService().userEstaLogeado();
                                     if (logeado) {
                                       //voy a la descripción

@@ -76,7 +76,7 @@ class _ChatGlobalPageState extends State<ChatGlobalPage> {
                       //llegaron los datos
                       else {
                         return SizedBox(
-                          height: 300,
+                          height: 570,
                           child: Container(
                             margin: EdgeInsets.symmetric(horizontal: 40),
                             child: ListView.separated(
