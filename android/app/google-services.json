@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "667067312353",
+    "project_id": "appeventosflutter",
+    "storage_bucket": "appeventosflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667067312353:android:8d7fee1a203dcd804a2fa0",
+        "android_client_info": {
+          "package_name": "com.myt.appeventosflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667067312353-11nt4795ntrraau1nam8lq219b1n6fbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myt.appeventosflutter",
+            "certificate_hash": "f6d96408bc47bff05a082426a832a82561990e94"
+          }
+        },
+        {
+          "client_id": "667067312353-ftqtqrde015tn4tg1t58vq8t08q9oc6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-TmTnZhVn7t1SE-tPwTl-cJLR5FPfniA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667067312353-ftqtqrde015tn4tg1t58vq8t08q9oc6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
