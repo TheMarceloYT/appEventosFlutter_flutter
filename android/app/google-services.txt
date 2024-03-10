@@ -1,0 +1,3 @@
+NOTA IMPORTANTE:
+
+Aquí debe de ir el conector con la data a la firebase.
